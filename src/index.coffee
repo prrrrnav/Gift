@@ -1,7 +1,7 @@
 styles = """
 /*
  * "my love gift"💕 v0.0.1
- * Authored by idealclover
+ * Authored by Pranav (For you Jaan 💕)
  */
 
 body {
@@ -12,13 +12,8 @@ body {
 
 /*
  * ...
- * ...hello?
- * 大家好！我是翠翠！idealclover~
- * 情人节快到了，该给女朋友点什么呢~
- * 写一个网页给子枨吧ww送她一颗小心心~
- * 可是~要怎么做呢~
- * 首先做一个框框来放我们的代码吧ww
- * 那么~开动啦！！
+ * Heyyyyy jannnn
+ * Jaan, dekhiyega naa ? 💕
  */
 
 pre {
@@ -35,8 +30,6 @@ pre {
 }
 
 /*
- * 不行不行，全是白色看代码都要看昏了
- * 我需要语法高亮~那我们就动手实现一下它吧~
  * Colors based on Base16 Ocean Dark
  */
 
@@ -50,9 +43,9 @@ pre em:not(.comment) { font-style: normal; }
 
 
 /*
- * 呦吼你看~代码高亮实现啦~接下来我们开工吧！
- * 首先我们把这个代码框移一下吧~它太占地方啦
- * 由于是响应式布局~所以在手机上和电脑上有不同的显示效果呦
+ * Jaan, look!
+ * Let's move this code box a little, so you can see better.
+ * It adjusts itself depending on your screen—just like I adjust for you 😉💕
  */
 
 @media screen and (max-width: 768px) {
@@ -64,7 +57,8 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 用代码做一颗小心心！
+ * Now I’ll make a little heart for you 💖
+ * My heart… (only for u)
  */
 
 @media screen and (max-width: 768px) {
@@ -118,7 +112,7 @@ pre em:not(.comment) { font-style: normal; }
           transform-origin: 100% 100%;
 }
 
-/* 给它加上一点阴影ww */
+/* Adding a tiny soft shadow—just like the softness of your smile 💕 */
 
 #heart::after {
   box-shadow:
@@ -131,13 +125,13 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 这可是~我的小心心~
- * 我要给它签上我的名字！
- * >v<
+ * This heart is my heart.
+ * I’m signing it with my name…
+ * because it belongs to you, Jaan ❤️
  */
 
 #heart i::before {
-  content: 'idealclover';
+  content: 'Pranav ♥ Tanya';
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -150,8 +144,8 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 接下来做什么呢~
- * 我们让这颗心跳起来吧！
+ * Now let's make this heart beat…
+ * Just like my heart beats faster whenever I think of you 💗
  */
 
 @-webkit-keyframes heartbeat {
@@ -195,7 +189,8 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 好哒！接下来准备让它跳起来吧ww
+ * Okay Jaan, ready?
+ * I'm about to bring this heart to life…
  */
 
 #heart, #echo {
@@ -223,46 +218,36 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 准备好了嘛~！
+ * Countdown time~
+ * 3...
+ * 2...
+ * 1...
+ * Almost there, my love~
  */
 
 #heart, #echo {
-
-/*
- * ...3...
- *
- * ...2...
- *
- * ...1...
- *
- * 再等一下~略略略~
- *
- */
 
   -webkit-animation-play-state: running;
           animation-play-state: running;
 
 /*
- * ...来啦!
+ * Andddd… here it is!
+ * My heart beating for you ❤️
  */
 
 }
 
 /*
- * 诶嘿~~
- * 这样我们的小心心就做好啦~
- * 怎么样~ >v< 还好看吗~~
- * 亲爱哒！情人节快乐！
- * 爱你哦！
+ * My little gift to you.
+ * Happy Birthday Month, Jaanu 💕
+ * I love you more than you'll ever know.
  *
  */
 
 /*
  * "my love gift" v0.0.1
- * Robot rights protected under BOT License & Apache2 license
- * Inspired by pen#PwLXXP
- * 谨以此网页献给我的女朋友子枨💕
- * 你最可爱ww
+ * Created with love by Pranav
+ * For my Tanya — my happiness, my Jaan 💕
  */
 """
 finalStyle = styles
