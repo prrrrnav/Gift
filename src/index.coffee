@@ -302,12 +302,7 @@ $('body').append """
 	<span id="echo"></span>
 	<span id="heart"><i></i></span>
 	<pre id="style-text"></pre>
-  <div style = 'position: fixed;left: 30px;bottom: 10px;'>
-    <a id='skipAnimation'>跳过动画</a>
-    <a style='color: #fff' href='http://love.idealclover.top'>重新播放</a>
-    <a style='color: #fff' target="_blank" href='https://github.com/idealclover/Love-Gift'>项目地址</a>
-    <a style='color: #fff' target="_blank" href='https://www.idealclover.top/'>我的博客</a>
-  </div>
+
 """
 
 
